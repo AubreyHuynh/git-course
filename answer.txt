@@ -1,0 +1,15 @@
+Để cài đặt email và tên cho Git có 2 loại:
+
+1. Global
+[Email]
+git config --global user.email "email@example.com"
+
+[Name]
+git config --global user.name "FullName"
+
+2. Local
+[Email]
+git config user.email "email@example.com"
+
+[Name]
+git config user.name "FullName"
