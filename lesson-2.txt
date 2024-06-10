@@ -15,32 +15,32 @@ git commit -m “message”: Tạo ra một commit với nội dung lấy từ v
 2. Liệt kê các file theo từng vùng sau khi thao tác một loạt các lệnh
 
 a. Tạo 3 file: file1, file2, file3 
-Answer: Trong folder 'lesson-2' có ba file: 'file1', 'file2', 'file3'
+Trả lời: Trong folder 'lesson-2' có ba file: 'file1', 'file2', 'file3'
 Working Directory: file1, file2, file3
 Staging Area: Rỗng
 Repository: Rỗng
 
 
 b. Chạy lệnh: git init 
-Answer: Tạo một repository Git mới trong folder 'lesson-2'. Các file vẫn giữ nguyên vị trí trong folder
+Trả lời: Tạo một repository Git mới trong folder 'lesson-2'. Các file vẫn giữ nguyên vị trí trong folder
 Working Directory: file1, file2, file3
 Staging Area: Rỗng
 Repository: Rỗng
 
 c. Chạy lệnh: git commit -m”init project”
-Answer:Lệnh này sẽ thất bại vì không có file nào được add vào vùng staging.
+Trả lời:Lệnh này sẽ thất bại vì không có file nào được add vào vùng staging.
 
 d. Chạy lệnh: git add file1
-Answer: 
+Trả lời: Lệnh này thêm 'file1' vào Staging Area
 Working Directory: file1, file2, file3
 Staging Area: file1
 Repository: Rỗng
 
 e. Chạy lệnh: git commit -m”add file1”
-Answer: 
+Trả lời: Lệnh này tạo một commit mới trong repository với message là "add file1"
 Working Directory: file1, file2, file3
 Staging Area: Rỗng
 Repository: file1
 
 f. Chạy lệnh: git add file
-Answer: Lệnh này sẽ thất bại vì không có file nào tên là file trong folder.
+Trả lời: Lệnh này sẽ thất bại vì không có file nào tên là file trong folder.
