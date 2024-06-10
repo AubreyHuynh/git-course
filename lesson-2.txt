@@ -1,0 +1,23 @@
+1. Giải thích các câu lệnh
+[git init]
+git init: dùng để khởi tạo một repository Git mới hoặc để bắt đầu quản lý phiên bản mã nguồn của một dự án từ đầu.
+
+[git add <file_name>]
+git add <file_name>: Đưa vào vùng staging file, thư mục cụ thể nào đó
+
+[git add .]
+git add .: Đưa vào vùng staging toàn bộ thư mục làm việc
+
+[git commit -m “message”]
+git commit -m “message”: Tạo ra một commit với nội dung lấy từ vùng staging, một lịch sử commit được tạo ra với message nhập vào.
+
+
+2. Liệt kê các file theo từng vùng sau khi thao tác một loạt các lệnh
+
+a. Tạo 3 file: file1, file2, file3 --> "Working Directory" area
+b. Chạy lệnh: git init --> "Working Directory" area
+c. Chạy lệnh: git commit -m”init project” --> "Repository" area
+d. Chạy lệnh: git add file1 --> "Staging" area
+e. Chạy lệnh: git commit -m”add file1” --> "Repository" area
+f. Chạy lệnh: git add file --> "Staging" area
+
