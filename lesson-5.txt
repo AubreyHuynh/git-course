@@ -1,0 +1,15 @@
+
+1. Cấu trúc DOM cơ bản của một trang web bao gồm các thẻ:
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <body>
+
+2. Cấu trúc html của 1 bảng (table):
+    <table>: Sử dụng bắt đầu và kết thúc của bảng.
+    <thead>: Sử dụng để nhóm phần tiêu đề của bảng.
+    <tbody>: Sử dụng để nhóm phần thân của bảng, nơi chứa dữ liệu. 
+    <tfoot>: Sử dụng để nhóm phần chân của bảng, thường chứa thông tin tóm tắt.
+    <tr>: Sử dụng cho một hàng trong bảng.
+    <th>: Sử dụng cho một ô tiêu đề trong bảng.
+    <td>: Sử dụng cho một ô dữ liệu trong bảng.
